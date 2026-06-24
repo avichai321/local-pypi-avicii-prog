@@ -1,0 +1,17 @@
+# Ignore downloaded packages (wheels)
+packages/
+
+# Ignore exported docker images
+*.tar
+*.tar.gz
+
+# Ignore Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
