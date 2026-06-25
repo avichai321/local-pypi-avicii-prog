@@ -3,8 +3,8 @@ version: '3.3'
 services:
   pypi-server:
     build: .
-    image: pypiserver/pypiserver:v2.1.1
-    container_name: avicii_local_pypi
+    image: avicii-local-pypi:1.0
+    container_name: avicii-local-pypi
     volumes:
       # Mount the local folder for development/updates (optional when running baked image offline)
       - ./packages:/data/packages
